@@ -1,0 +1,67 @@
+table#upperlayout{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(226, 216, 216);
+}
+table#upperlayout tr td.menu{
+    border : 2px solid rgb(243, 235, 235);
+text-align: center;
+width: 15%;
+cursor: pointer;
+}
+td#empty{
+    width: 40%;
+}
+td.menu>a{
+    text-decoration: none;
+}
+table#upperlayout tr td.menu:hover{
+background-color: rgb(240, 236, 236);
+}
+div#banner , footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(160, 157, 157);  
+  
+}
+div#banner{
+    font-size: 200px;
+    text-align: center;
+}
+table#lowerlayout{
+    width: 100%;
+    height: 600px;
+ background: rgb(226, 216, 216);
+}
+table#lowerlayout tr td.left{
+    width: 25%;
+    border: 2px solid rgb(243, 235, 235);
+    text-align: center;
+    vertical-align: top;
+}
+table#lowerlayout tr td.center{
+    width: 50%;
+    border: 2px solid rgb(243, 235, 235);
+}
+table#lowerlayout tr td.left img{
+    width: 300px;
+    height: 200px;
+}
+tr#upperlayout{
+    background-color: rgba(128, 128, 128, 0.212);
+}
+footer table#foott tr td.foot{
+height: 50px;
+}
+footer table#foott{
+    width: 30%;
+}
+table#lowerlayout table#chart tr th.chart, table#lowerlayout table#chart tr td.chart{
+border: 1px solid rgb(150, 146, 146);
+width: 150px;
+height: 30px;
+}
+tr.chart:nth-child(even){
+    background-color: rgb(250, 245, 245);
+}
+
